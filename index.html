@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    /> 
+    <link rel="stylesheet" href="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.css" />  
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <header class="primary-header">
+      <div class="container">
+         <div class="nav-wrapper">
+            <a href="#"  aria-label="home">
+               <svg class="logo header-logo" width="146" height="24">
+                <use xlink:href="./images/logo.svg#logo"></use>
+              </svg>
+              </a>
+            <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+            </button>
+            <nav class="primary-navigation">
+              <ul role="list" aria-label="Primary" class="nav-list" id="primary-navigation">
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Community</a></li>
+              </ul>
+            </nav>
+            <button class="button | display-sm-none display-md-inline-flex"> Get Started </button>
+         </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="padding-block-900 ">
+        <div class="container">
+          <div class="even-columns text-center-sm-only">
+            <div class="flow ">
+              <h1 class=" fs-primary-heading fw-bold">
+                Bring everyone together to build better products
+              </h1>
+              <p>
+                Manage makes it simple for software teams to plan day-to-day
+                tasks while keeping the larger team goals in view
+              </p>
+              <button class="button"> Get Started </button>
+            </div>
+            <div class="hero-image">
+              <img class="mx-auto" src="./images/illustration-intro.svg" alt="" />
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <section class=" features-blob | padding-block-900">
+        <div class="container ">
+          <div class="even-columns">
+            <div class=" flow text-center-sm-only | margin-bottom-700 what-bolb" style="--flow-spacer:1.5rem" >
+              <h1 class="fs-secondary-heading fw-bold">
+                What's different about Manage?
+              </h1>
+              <p>
+                Manage provides all the functionality your team needs, without
+                the complexity. Our software is tailor-made for modern digital
+                teams
+              </p>
+            </div>
+
+            <div>
+              <ul role="list" class="numbered-items | flow ">
+                <li>
+                  <div class="flow flow-div" style="--flow-spacer: 1em" >
+                  <h3 class="fs-600 fw-bold">Track company-wide progress</h3>
+                  <p data-width="wide">
+                    See how your day-to-day tasks fit into wider vision. Go from
+                    tracking progress at the milestone level all the way done to
+                    the smallest of details. Never lose sight of the bigger
+                    picture again.
+                  </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="flow" style="--flow-spacer: 1em" >
+                  <h3 class="fs-600 fw-bold">Advanced built-in reports</h3>
+                  <p data-width="wide">
+                    See how your day-to-day tasks fit into wider vision. Go from
+                    tracking progress at the milestone level all the way done to
+                    the smallest of details.
+                  </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="flow" style="--flow-spacer: 1em" >
+                  <h3 class="fs-600 fw-bold">
+                    Everything you need in one place
+                  </h3>
+                  <p>
+                    See how your day-to-day tasks fit into wider vision. Go from
+                    tracking progress at the milestone level all the way done to
+                    the smallest of details.
+                  </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="carousel | padding-block-700 text-center ">
+        <h2 class="fs-secondary-heading fw-bold ">What they've said</h2>
+        <ul class="slider ">
+          <li>
+            <img class="avatar " src="./images/avatar-anisha.png" alt="">
+            <div class="slider-content flow" style="--flow-spacer:1rem">
+               <h3> Anisha Li </h3>
+              <p data-width="wide">
+                 See how your day-to-day tasks fit into wider vision. Go from
+                tracking progress at the milestone level all the way done to
+                the smallest of details.
+              </p>
+            </div>
+           
+          </li>
+          <li>
+            <img class="avatar " src="./images/avatar-ali.png" alt="">
+            <div class="slider-content flow" style="--flow-spacer:1rem">
+               <h3> Ali Bravo </h3>
+              <p data-width="wide">
+                 See how your day-to-day tasks fit into wider vision. Go from
+                tracking progress at the milestone level all the way done to
+                the smallest of details.
+              </p>
+            </div>
+          </li>
+          <li>
+            <img class="avatar " src="./images/avatar-richard.png" alt="">
+            <div class="slider-content flow" style="--flow-spacer:1rem">
+               <h3> Richard </h3>
+              <p data-width="wide">
+                 See how your day-to-day tasks fit into wider vision. Go from
+                tracking progress at the milestone level all the way done to
+                the smallest of details.
+              </p>
+            </div>
+          </li>
+          <li>
+            <img class="avatar " src="./images/avatar-shanai.png" alt="">
+           <div class="slider-content flow" style="--flow-spacer:1rem">
+               <h3> Shanai </h3>
+              <p data-width="wide">
+                 See how your day-to-day tasks fit into wider vision. Go from
+                tracking progress at the milestone level all the way done to
+                the smallest of details.
+              </p>
+            </div>
+          </li>
+        </ul>
+        <button class="button"> Get Started </button>
+      </section>
+
+      <section class="cta | padding-block-700 bg-accent-400 text-accent-100">
+        <div class="container">
+          <div class="even-columns vertical-align-center ">
+            <div>
+              <p style="color: white;" class="fs-secondary-heading fw-bold .simp-heading">
+                Simplify how your team works today
+              </p>
+            </div>
+            <div class="justify-self-end-md">
+              <button class="button" data-type="inverted"> Get Started</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-neutral-900 text-neutral-100 primary-footer" >
+      <div class="container">
+        <div class=" footer-primary-wrapper">
+          <div class="footer-nav-wrapper">
+            <a class="footerlogo" href="#" aria-label="home">
+              <svg  class="logo footer-logo" width="146" height="24">
+                <use xlink:href="./images/logo.svg#logo"></use>
+              </svg>
+            </a>
+            <ul class="social-links" aria-label="Social links">
+              <li>
+                <a aria-label="facebook" href="#">
+                 <svg class="social-icon" >
+                 <use xlink:href="images/social-icons.svg#icon-facebook"></use>
+                </svg>
+                </a>
+              </li>
+              <li>
+                <a aria-label="twitter" href="#">
+                    </svg><svg class="social-icon">
+                  <use xlink:href="images/social-icons.svg#icon-twitter"></use>
+                </svg>
+                 </a>
+              </li>
+              <li>
+                <a aria-label="pinterest" href="#">
+                    </svg><svg class="social-icon">
+                  <use xlink:href="images/social-icons.svg#icon-instagram"></use>
+                </svg></a>
+              </li>
+              <li>
+                <a aria-label="instagram" href="#">
+                    </svg><svg class="social-icon">
+                  <use xlink:href="images/social-icons.svg#icon-pinterest"></use>
+                </svg></a>
+              </li>
+              <li>
+                <a aria-label="youtube" href="#"
+                  >  </svg><svg class="social-icon">
+                  <use xlink:href="images/social-icons.svg#icon-youtube"></use>
+                </svg></a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <nav class="footer-nav">
+              <ul style="--flow-spacer: 1em" class="flow" aria-labe="Footer" role="list">
+                <li><a href="#"> Home </a></li>
+                <li><a href="#"> Pricing </a></li>
+                <li><a href="#"> Products </a></li>
+                <li><a href="#"> About Us </a></li>
+                <li><a href="#"> Careers </a></li>
+                <li><a href="#"> Community </a></li>
+                <li><a href="#"> Privacy Policy </a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer-form">
+            <form  action="">
+              <input type="email" />
+              <button data-shadow="none" class="button">Go</button>
+            </form>
+            <p>Copyright 2020. All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.js"></script>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
